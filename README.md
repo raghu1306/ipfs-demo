@@ -6,6 +6,7 @@ This project installs IPFS service in a AWS managed EKS cluster provisioned usin
 - Terraform >= v1.5.6
 - Helm3
 - Python3 flask
+- AWS CLI with appropriate IAM user credentials
 
 **Steps to deploy IPFS Service:**
 - Clone the ipfs-demo git repo
