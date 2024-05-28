@@ -7,7 +7,7 @@ variable "region" {
 variable "clusterName" {
   description = "my EKS cluster"
  type = string
- default = "raghu-eks"
+ default = "raghu-eks-2"
 }
 
 variable "desired_count" {
