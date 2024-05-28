@@ -5,13 +5,13 @@ variable "region" {
 }
 
 variable "clusterName" {
-  description = "Raghu EKS cluster"
+  description = "my EKS cluster"
  type = string
  default = "raghu-eks"
 }
 
 variable "desired_count" {
  type = number
- default = 1
+ default = 5
 }
 
