@@ -5,7 +5,7 @@ resource "null_resource" "wait_for_node_group" {
 
 
   provisioner "local-exec" {
-    command = "cd .. ; helm install ipfs-release helm-chart ; aws eks update-kubeconfig --region ${var.region} --name ${var.clusterName}" 
+    command = "aws eks update-kubeconfig --region ${var.region} --name ${var.clusterName} && cd ../ && cd helm-chart && helm install ipfs-new . " 
 }
 }
 
